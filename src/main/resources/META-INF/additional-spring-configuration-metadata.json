@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "pgmq.queues",
+      "type": "java.util.List<java.lang.String>",
+      "description": "PGMQueues"
+    },
+    {
+      "name": "pgmq.visibilityTimeoutSeconds",
+      "type": "java.lang.Integer",
+      "description": "PGMQ Default consumer visibility timeout (seconds)",
+      "defaultValue": 30
+    }
+  ] }
