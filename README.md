@@ -1,5 +1,7 @@
 # pgmq-spring
 
+[![codecov](https://codecov.io/gh/adamalexandru4/pgmq-spring/graph/badge.svg?token=M0N911WI8U)](https://codecov.io/gh/adamalexandru4/pgmq-spring)
+
 A Java client, based on Spring, for
 [Postgres Message Queue](https://github.com/tembo-io/pgmq) (PGMQ).
 
