@@ -1,0 +1,21 @@
+{
+  "properties": [
+    {
+      "name": "pgmq.delay",
+      "type": "java.lang.Integer",
+      "description": "PGMQ Default time before the messages becomes visible (seconds)",
+      "defaultValue": 0
+    },
+    {
+      "name": "pgmq.visibilityTimeout",
+      "type": "java.lang.Integer",
+      "description": "PGMQ Default time that the message become invisible after reading (seconds)",
+      "defaultValue": 30
+    },
+    {
+      "name": "pgmq.checkMessage",
+      "type": "java.lang.Boolean",
+      "description": "PGMQ Check if message is valid JSON before sending",
+      "defaultValue": true
+    }
+  ] }

@@ -1,5 +1,4 @@
 pgmq:
-  queues:
-    - TestQueue1
-    - TestQueue2
-  visibility-timeout-seconds: 30
+  delay: 0
+  visibility-timeout: 30
+  check-message: true

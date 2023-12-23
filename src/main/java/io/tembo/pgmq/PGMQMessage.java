@@ -2,7 +2,7 @@ package io.tembo.pgmq;
 
 import java.time.OffsetDateTime;
 
-public record Message(
+public record PGMQMessage(
         Long id,
         Long readCounter,
         OffsetDateTime enqueuedAt,
