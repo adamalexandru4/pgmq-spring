@@ -8,8 +8,8 @@
         <version>3.2.1</version>
         <relativePath/>
     </parent>
-    <groupId>io.tembo</groupId>
-    <artifactId>pgmq</artifactId>
+    <groupId>com.github.adamalexandru4</groupId>
+    <artifactId>pgmq-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>pgmq-spring</name>
     <description>pgmq-spring</description>
@@ -92,5 +92,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/adamalexandru4/pgmq-spring</url>
+        </repository>
+    </distributionManagement>
 
 </project>
