@@ -8,7 +8,7 @@
         <version>3.2.1</version>
         <relativePath/>
     </parent>
-    <groupId>com.github.adamalexandru4</groupId>
+    <groupId>io.github.adamalexandru4</groupId>
     <artifactId>pgmq-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>pgmq-spring</name>
